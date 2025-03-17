@@ -1,1 +1,1 @@
-# aps_summit_2025_gwkokab_poster_and_tutorial
+This repo contains the poster and multi-source model example which can be taken as a tutorial to build the model using the GWKokab command line for data generation and inference. Please follow the instructions given in Multi-Source-Example `README.md` to build a model for data generation and inference using `GWKokab`.
