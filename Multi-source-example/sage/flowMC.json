@@ -1,0 +1,40 @@
+{
+    "data_dump_kwargs": {
+        "n_samples": 10000,
+	"batch_size": 5000
+    },
+    "local_sampler_kwargs": {
+        "sampler": "MALA",
+        "step_size": 0.01
+    },
+    "nf_model_kwargs": {
+        "hidden_size": [
+            128,
+            128
+        ],
+        "n_layers": 8,
+        "num_bins": 10,
+        "spline_range": [
+            -10,
+            10
+        ]
+    },
+    "sampler_kwargs": {
+        "batch_size": 10000,
+        "learning_rate": 0.001,
+        "local_autotune": true,
+        "momentum": 0.9,
+        "n_chains": 100,
+        "n_epochs": 7,
+        "n_flow_sample": 30000,
+        "n_global_steps": 100,
+        "n_local_steps": 100,
+        "n_loop_production": 30,
+        "n_loop_training": 30,
+        "n_max_examples": 30000,
+        "output_thinning": 2,
+        "precompile": false,
+        "train_thinning": 2,
+        "use_global": true
+    }
+}

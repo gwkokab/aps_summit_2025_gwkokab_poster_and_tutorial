@@ -1,0 +1,5 @@
+{
+    "filename": "../../../asset-store/neural_vts/neural_vt_0p5_200_IMRPhenomPv2_SimNoisePSDaLIGO175MpcT1800545_spin.hdf5",
+    "batch_size": 1000,
+    "type": "NeuralNetVolumeTimeSensitivity"
+}

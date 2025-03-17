@@ -1,0 +1,100 @@
+{
+    "log_rate_[0-9]": {
+        "dist": "Uniform",
+        "high": 10.0,
+        "low": -10.0
+    },
+    "alpha_pl_[0-9]+": {
+        "dist": "Uniform",
+        "high": 5.0,
+        "low": -5.0
+    },
+    "beta_pl_[0-9]+": {
+        "dist": "Uniform",
+        "high": 5.0,
+        "low": -5.0
+    },
+    "mmin_pl_[0-9]+": {
+        "dist": "Uniform",
+        "high": 20.0,
+        "low": 3.0
+    },
+    "mmax_pl_[0-9]+": {
+        "dist": "Uniform",
+        "high": 100.0,
+        "low": 30.0
+    },
+
+    "m1_low_g_0": 3.0,
+    "m2_low_g_0": 3.0,
+    "m1_high_g_0": 100.0,
+    "m2_high_g_0": 100.0,
+    "m1_loc_g_0": {
+        "dist": "Uniform",
+        "high": 60.0,
+        "low": 20.0
+    },
+    "m2_loc_g_0": {
+        "dist": "Uniform",
+        "high": 40.0,
+        "low": 10.0
+    },
+    "m1_scale_g_0": 4.0,
+    "m2_scale_g_0": "m1_scale_g_0",
+
+    "m1_low_g_1": 1.0,
+    "m2_low_g_1": 1.0,
+    "m1_high_g_1": 3.0,
+    "m2_high_g_1": 3.0,
+    "m1_loc_g_1": {
+        "dist": "Uniform",
+        "high": 3.0,
+        "low": 1.0
+    },
+    "m2_loc_g_1": "m1_loc_g_1",
+    "m1_scale_g_1": 1.5,
+    "m2_scale_g_1": "m1_scale_g_1",
+
+    "m1_low_g_2": 3.0,
+    "m2_low_g_2": 1.0,
+    "m1_high_g_2": 50.0,
+    "m2_high_g_2": 3.0,
+    "m1_loc_g_2": {
+        "dist": "Uniform",
+        "high": 30.0,
+        "low": 10.0
+    },
+    "m2_loc_g_2": "m1_loc_g_1",
+    "m1_scale_g_2": 4.0,
+    "m2_scale_g_2": "m1_scale_g_1",
+    
+    
+    "chi1_scale_pl_0": {
+        "dist": "Uniform",
+        "high": 1.0,
+        "low": 0.0
+    },
+    "chi2_scale_pl_0": "chi1_scale_pl_0",
+    "chi1_scale_g_0": {
+        "dist": "Uniform",
+        "high": 1.0,
+        "low": 0.0
+    },
+    "chi2_scale_g_0": "chi1_scale_g_0",
+    "chi1_scale_g_1": {
+        "dist": "Uniform",
+        "high": 0.4,
+        "low": 0.0
+    },
+    "chi2_scale_g_1": "chi1_scale_g_1",
+    "chi1_scale_g_2": "chi1_scale_g_1",
+    "chi2_scale_g_2": {
+        "dist": "Uniform",
+        "high": 1.0,
+        "low": 0.0
+    },
+    "chi[1-2]_high_(pl|g)_[0-9]": 1.0,
+    "chi[1-2]_loc_(pl|g)_[0-9]": 0.0,
+    "chi[1-2]_low_(pl|g)_[0-9]": 0.0
+
+}

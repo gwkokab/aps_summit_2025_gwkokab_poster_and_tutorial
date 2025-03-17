@@ -1,0 +1,10 @@
+{
+    "num_samples": 2000,
+    "proposal_dists": [
+        "self",
+        "self",
+        "self",
+        "self"
+    ],
+    "scale": 80.0
+}

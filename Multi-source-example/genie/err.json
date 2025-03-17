@@ -1,0 +1,10 @@
+{
+    "chi[1-2]_high": 1.0,
+    "chi[1-2]_low": 0.0,
+    "chi[1-2]_scale": 0.05,
+    "cos_tilt_[1-2]_high": 1.0,
+    "cos_tilt_[1-2]_low": 0.0,
+    "cos_tilt_[1-2]_scale": 0.004,
+    "scale_Mc": 0.5,
+    "scale_eta": 1.0
+}
