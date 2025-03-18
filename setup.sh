@@ -52,10 +52,6 @@ log "Installing uv"
 pip install --upgrade --quiet pip
 pip install --upgrade --quiet uv
 
-log "Creating virtual environment"
-uv venv --python=python3.11 --quiet
-source .venv/bin/activate
-
 log "Installing dependencies"
 cd gwkokab && uv pip install --upgrade ".[cuda12]"
 
