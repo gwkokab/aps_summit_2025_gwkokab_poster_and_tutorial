@@ -94,5 +94,4 @@ gwk_ess_plot \
     --output $dir/ess.pdf \
     --labels alpha_pl_0 beta_pl_0 m1_loc_g_0 m1_loc_g_1 m1_loc_g_2 m2_loc_g_0 mmax_pl_0 mmin_pl_0 chi1_scale_g_0 chi1_scale_g_1 chi1_scale_pl_0 chi2_scale_g_2 log_rate_0 log_rate_1 log_rate_2 log_rate_3 \
     --width 15 \
-    --height 5 
-
+    --height 5

@@ -12,7 +12,7 @@ ppd_n_pls_m_gs \
     --range a_2 0.001 1.0 500 \
     --sample-filename "./sampler_data/nf_samples_unweighted.dat" \
     --spin-truncated-normal \
-    --batch-size 1000 
+    --batch-size 1000
 
 #ppd_n_pls_m_gs \
 #    --filename ppd_weighted.hdf5 \

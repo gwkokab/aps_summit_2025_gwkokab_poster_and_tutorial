@@ -22,7 +22,7 @@ gwk_ppd_plot \
     --x-range 0.0 1.0 \
     --x-range 0.0 1.0 \
     --y-range 1e-2 1e5 \
-    --y-range 1e-2 1e5  
+    --y-range 1e-2 1e5
 
 #gwk_ppd_plot \
 #    --data "./ppd.hdf5" \
@@ -31,4 +31,3 @@ gwk_ppd_plot \
 #    --x-range 1.0 100.0 \
 #    --x-range 1.0 100.0 \
 #    --x-range 0.0 0.5 &
-
