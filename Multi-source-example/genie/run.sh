@@ -2,14 +2,11 @@
 
 source enviornment_variables.sh
 
-taskset -c 21-40 genie_n_pls_m_gs \
+numactl --cpunodebind=8,9 --physcpubind=64-79,192-207 --membind=8 genie_n_pls_m_gs \
     --vt-json "./vt.json" \
-    --error-size 2000 \
+    --error-size 6000 \
     --num-realizations 5 \
     --model-json "./model.json" \
     --err-json "./err.json" \
     --pmean-json "./pmean.json" \
-    --no-eccentricity \
-    --no-tilt \
-    --no-redshift \
-    --spin-truncated-normal
+    --add-truncated-normal-spin

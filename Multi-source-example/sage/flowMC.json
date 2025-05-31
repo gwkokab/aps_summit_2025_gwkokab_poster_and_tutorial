@@ -1,4 +1,5 @@
 {
+    "apply_gradient_checkpoint": true,
     "data_dump_kwargs": {
         "n_samples": 10000,
         "batch_size": 5000
@@ -20,13 +21,13 @@
         ]
     },
     "sampler_kwargs": {
-        "batch_size": 10000,
+        "batch_size": 5000,
         "learning_rate": 0.001,
         "local_autotune": true,
         "momentum": 0.9,
         "n_chains": 100,
         "n_epochs": 7,
-        "n_flow_sample": 30000,
+        "n_flow_sample": 2000,
         "n_global_steps": 100,
         "n_local_steps": 100,
         "n_loop_production": 30,

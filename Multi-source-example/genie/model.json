@@ -1,18 +1,18 @@
 {
     "N_g": 3,
     "N_pl": 1,
-    "log_rate_0": 4.0,
+    "log_rate_0": 6.0,
     "log_rate_1": 3.0,
     "log_rate_2": 8.0,
     "log_rate_3": 6.0,
 
-    "alpha_pl_[0-9]+": -2.0,
-    "beta_pl_[0-9]+": 2.0,
+    "alpha_pl_[0-9]+": 3.0,
+    "beta_pl_[0-9]+": 0.2,
     "mmax_pl_[0-9]+": 86.0,
     "mmin_pl_[0-9]+": 5.0,
 
-    "m1_low_g_0": 3.0,
-    "m2_low_g_0": 3.0,
+    "m1_low_g_0": 5.0,
+    "m2_low_g_0": 5.0,
     "m1_high_g_0": 100.0,
     "m2_high_g_0": 100.0,
     "m1_loc_g_0": 40.0,
@@ -29,7 +29,7 @@
     "m1_scale_g_1": 1.5,
     "m2_scale_g_1": 1.5,
 
-    "m1_low_g_2": 3.0,
+    "m1_low_g_2": 5.0,
     "m2_low_g_2": 1.0,
     "m1_high_g_2": 50.0,
     "m2_high_g_2": 3.0,
@@ -38,11 +38,12 @@
     "m1_scale_g_2": 4.0,
     "m2_scale_g_2": 1.5,
 
-    "chi1_scale_g_2": 0.05,
-    "chi2_scale_g_2": 0.4,
+    
+    "chi[1-2]_scale_pl_0": 0.2,
     "chi[1-2]_scale_g_0": 0.3,
     "chi[1-2]_scale_g_1": 0.05,
-    "chi[1-2]_scale_pl_0": 0.2,
+    "chi1_scale_g_2": 0.4,
+    "chi2_scale_g_2": 0.05,
     "chi[1-2]_high_(g|pl)_[0-9]+": 1.0,
     "chi[1-2]_loc_(g|pl)_[0-9]+": 0.0,
     "chi[1-2]_low_(g|pl)_[0-9]+": 0.0
